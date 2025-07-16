@@ -2,13 +2,13 @@
 
 A machine learning-based system to predict individuals' credit scores (Poor, Standard, Good) using financial and personal attributes. This project automates creditworthiness assessment, supporting faster and more consistent financial decision-making.
 
----
+
 
 ##  Problem Statement
 
 Build a robust model to classify credit scores using a dataset with diverse customer attributes like income, loan history, credit usage, and payment behavior.
 
----
+
 
 ##  Dataset Overview
 
@@ -20,7 +20,7 @@ Build a robust model to classify credit scores using a dataset with diverse cust
   - Payment Behavior
 - Target variable: **Credit Score** (`Poor`, `Standard`, `Good`)
 
----
+
 
 ##  Workflow
 
@@ -31,7 +31,7 @@ Build a robust model to classify credit scores using a dataset with diverse cust
 5. Model Building: **Random Forest**, **XGBoost**, **Logistic Regression**
 6. Evaluation using Accuracy, Precision, Recall, F1 Score, and AUC
 
----
+
 
 ##  Best Model
 
@@ -39,10 +39,10 @@ Build a robust model to classify credit scores using a dataset with diverse cust
 - **AUC Score:** 0.98  
 - **F1 Score:** High macro-average score on balanced dataset
 
----
 
 
-## 📌 Future Improvements
+
+##  Future Improvements
 
 - Deploy as a Streamlit or Flask web app
 - Use SHAP/LIME for model explainability
